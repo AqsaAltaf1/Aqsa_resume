@@ -144,7 +144,7 @@
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 			console.log(scroll)
-			if (scroll >= 150) {
+			if (scroll >= 0) {
 			  $('.navbar').addClass('scrolled');
 			} else {
 			  $('.navbar').removeClass('scrolled');
